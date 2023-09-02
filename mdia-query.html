@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query brackpoin</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+        }
+        .food{
+            border: 2px solid orange;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .food img{
+            width: 100%;
+            
+        }
+        @media screen and (max-width :576px){
+            .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+            .food{
+                background-color:rgba(243, 16, 243, 0.281) ;
+                font-size: 30px;
+                color: rgba(221, 255, 127, 0.699);
+            }
+           
+        }
+        @media screen and (min-width :577px) and (max-width:992px){
+            .container{
+                grid-template-columns: repeat(2 ,2fr);
+            }
+            .food{
+                background-color: aqua;
+                font-size: 32px;
+                font-weight: 700px;
+            }
+        }
+        @media screen and (min-width :993px) and (max-width:1292px){
+            .container{
+                grid-template-columns: repeat(3 ,2fr);
+            }
+            .food{
+                background-color: aqua;
+                font-size: 32px;
+                font-weight: 700px;
+            }
+        }
+    </style>
+</head>
+<body>
+   
+     <div class="container">
+        <div class="food">
+            <img src="images/pik--1.jpeg" alt="">
+            <h2 food-item-1=""></h2>
+            <p food- price-01100=""></p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eveniet doloremque molestiae cupiditate ut nam quis placeat laboriosam enim minus.</p>
+            <bnt>BUY NOW</bnt>
+        </div>
+        <div class="food">
+            <img src="images/pik--1.jpeg" alt="">
+            <h2 food-item-2=""></h2>
+            <p food -price-02100=""></p>
+            <p>Eveniet dicta nihil voluptatibus in dolorum veritatis earum doloribus animi deleniti, dignissimos excepturi quam facilis blanditiis delectus alias deserunt nam.</p>
+            <bnt>BUY NOW</bnt>
+        </div>
+        <div class="food">
+            <img src="images/pik--1.jpeg" alt="">
+            <h2 food-item-3=""></h2>
+            <p food-price-03100=""></p>
+            <p>Reiciendis facilis unde illum sunt nam maiores odio voluptatem quidem consequatur excepturi, laudantium consequuntur quisquam vel aliquam? Impedit, inventore culpa.</p>
+            <bnt>BUY NOW</bnt>
+        </div>
+        <div class="food">
+            <img src="images/pik--1.jpeg" alt="">
+            <h2 food-item-4=""></h2>
+            <p food-price-04100=""></p>
+            <p>Similique quo exercitationem illo hic libero debitis labore, aperiam deserunt nihil fuga sunt quis corporis ipsam totam assumenda? Tempore, cum.</p>
+            <bnt>BUY NOW</bnt>
+        </div>
+        <div class="food">
+            <img src="images/pik--1.jpeg" alt="">
+            <h2 food-item-5=""></h2>
+            <p food-price-05100=""></p>
+            <p>Vero laboriosam, voluptas commodi id molestiae veritatis accusamus sapiente iure rem numquam excepturi sit voluptate consequuntur explicabo velit natus quos!</p>
+            <bnt>BUY NOW</bnt>
+        </div>
+        <div class="food">
+            <img src="images/pik--1.jpeg" alt="">
+            <h2 food-item-6=""></h2>
+            <p food- price-06100=""></p>
+            <p>Minus dolorum ab, libero alias provident natus, similique debitis esse accusantium, atque molestiae nesciunt hic labore ad reiciendis repellat delectus.</p>
+            <bnt>BUY NOW</bnt>
+        </div>
+        <div class="food">
+            <img src="images/pik--1.jpeg" alt="">
+            <h2 food-item-7=""></h2>
+            <p food-price-07100=""></p>
+            <p>Accusamus hic fuga temporibus, ipsum officia laborum eligendi nobis aspernatur earum eos porro quia voluptatem. Qui, ab? Possimus, ad tenetur!</p>
+            <bnt>BUY NOW</bnt>
+        </div>
+        <div class="food">
+            <img src="images/pik--1.jpeg" alt="">
+            <h2 food-item-8=""></h2>
+            <p food-price-08100=""></p>
+            <p>A, sunt tempora voluptatum doloremque quia pariatur fugiat nobis aut possimus delectus cum sed maxime rerum nihil numquam, ipsa at!</p>
+            <bnt>BUY NOW</bnt>
+        </div>
+        <div class="food">
+            <img src="images/pik--1.jpeg" alt="">
+            <h2 food-item-9=""></h2>
+            <p food-price-09100=""></p>
+            <p>Nobis unde consequatur rerum sunt illum nisi non illo temporibus dolores soluta fugit, officiis cum, voluptate natus hic, quam libero.</p>
+            <bnt>BUY NOW</bnt>
+        </div>
+        <div class="food">
+            <img src="images/pik--1.jpeg" alt="">
+            <h2 food-item-10=""></h2>
+            <p foodprice-10100=""></p>
+            <p>Rerum amet asperiores nisi odio nobis eligendi quisquam quo ducimus voluptates obcaecati, eos consequuntur. Ab magni id eligendi nihil mollitia.</p>
+            <bnt>BUY NOW</bnt>
+        </div>
+        <div class="food">
+            <img src="" alt="">
+            <h2 food-item-11=""></h2>
+            <p foodprice-11100=""></p>
+            <p>Praesentium pariatur autem quo repudiandae culpa id eius iste error architecto, dolor mollitia sapiente est? Placeat similique veniam possimus sit!</p>
+            <bnt>BUY NOW</bnt>
+        </div>
+        <div class="food">
+            <img src="images/pik--1.jpeg" alt="">
+            <h2 food-item-12=""></h2>
+            <p foodprice-12100=""></p>
+            <p>Tempora vitae sit nobis qui assumenda animi corrupti facere laudantium. Facere quisquam optio explicabo impedit laudantium commodi a consectetur! Corporis!</p>
+            <bnt>BUY NOW</bnt>
+        </div>
+        <div class="food">
+            <img src="images/pik--1.jpeg" alt="">
+            <h2 food-item-13=""></h2>
+            <p food price-13100=""></p>
+            <p>Corrupti ut cumque saepe veritatis eum voluptates doloribus debitis eius itaque aperiam, quibusdam ipsa suscipit, dicta fugiat. Omnis, perspiciatis assumenda!</p>
+            <bnt>BUY NOW</bnt>
+        </div>
+        <div class="food">
+            <img src="images/pik--1.jpeg" alt="">
+            <h2 food-item-14=""></h2>
+            <p foodprice-14100=""></p>
+            <p>Facere doloribus qui voluptatum, dolore quos delectus officiis ipsum recusandae. Dolores quos natus veritatis quibusdam distinctio repellendus aperiam quod nemo?</p>
+            <bnt>BUY NOW</bnt>
+        </div>
+        <div class="food">
+            <img src="images/pik--1.jpeg" alt="">
+            <h2 food-item-15=""></h2>
+            <p food price-15100=""></p>
+            <p>Perferendis, quidem. Eveniet esse, laboriosam optio sit, odio dolorem beatae nemo dolor a dicta ut hic dolores magni excepturi magnam?</p>
+            <bnt>BUY NOW</bnt>
+        </div>
+     </div>
+</body>
+</html>

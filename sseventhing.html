@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven thing tou neeed to do to make a website responsive</title>
+    <style>
+        body{
+            border: 2px solid skyblue;
+            max-width: 1240px;
+            margin: 0 auto;
+        }
+  .images-container{
+    display: flex;
+  }
+  .images-container div{
+    width: 50%;
+  }
+  .images-container img{
+    width: 100%;
+  }
+  @media screen and (max-width:576px){
+    .images-container {
+        flex-direction: column-reverse;
+    }
+    .images-container div{
+        width: 100%;
+    }
+
+  }
+  @media screen
+ 
+   
+    </style>
+</head>
+<body> 
+    <h1>Responsive CSS unit</h1>
+       <ul>
+        <li>1.Viewport meta-tag</li>
+        <li>2.CSS Relative unit</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+       </ul>
+
+       <div class="images-container">
+        <div><img src="images/pik--1.jpeg" alt=""></div>
+        <div><img src="images/tiger.jpg" alt=""></div>
+       </div>
+</body>
+</html>
